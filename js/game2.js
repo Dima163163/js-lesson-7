@@ -62,7 +62,7 @@ function randomNumber1 () {
 										} else {
 												questionNewGame();
 											}
-									} else if (userNumber === randomNumber) {
+									} else {
 										alert('Правильно!');
 									}
 								} else {

@@ -15,7 +15,7 @@ function randomNumber () {
 					} else if(userNumber < randomNumber) {
 						alert('Больше!');
 						guessTheNumber();
-					} else if (userNumber === randomNumber) {
+					} else {
 						alert('Правильно!');
 					}
 				} else {
